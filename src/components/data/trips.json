@@ -1,0 +1,26 @@
+[
+  {
+    "img": "../../images/travel1.jpg",
+    "alt": "resim alt name",
+    "name": "travel 1 resim name",
+    "button": "view destination1"
+  },
+  {
+    "img": "../../images/travel2.jpg",
+    "alt": "resim alt name",
+    "name": "travel 2 resim name",
+    "button": "view destination2"
+  },
+  {
+    "img": "../../images/travel3.jpg",
+    "alt": "resim alt name",
+    "name": "travel 3 resim name",
+    "button": "view destination3"
+  },
+  {
+    "img": "../../images/travel4.jpg",
+    "alt": "resim alt name",
+    "name": "travel 4 resim name",
+    "button": "view destination4"
+  }
+]

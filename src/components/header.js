@@ -28,7 +28,7 @@ const Header = () => {
 }
 
 const Nav = styled.nav`
-  background: #0c0c0c;
+  background: transparent;
   height: 5rem;
   display: flex;
   justify-content: space-between;

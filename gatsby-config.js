@@ -38,5 +38,13 @@ module.exports = {
     },
     `gatsby-plugin-gatsby-cloud`,
     `gatsby-plugin-styled-components`,
+    `gatsby-plugin-scroll-reveal`,
+    `gatsby-transformer-json`,
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `./src/components/data/`,
+      },
+    },
   ],
 }
