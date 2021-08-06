@@ -16,13 +16,6 @@ module.exports = {
       },
     },
     `gatsby-transformer-sharp`,
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        name: "path",
-        path: `${__dirname}/src/blog`,
-      },
-    },
     `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-plugin-manifest`,
