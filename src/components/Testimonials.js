@@ -29,9 +29,11 @@ const Testimonials = () => {
   `)
 
   const TestimonialImages = () => {
-    return data?.allFile.edges.map((item, index) => (
-      <Images key={index} fluid={item.node.childImageSharp.fluid} />
-    ))
+    if (data)
+      return data?.allFile.edges.map((item, index) => (
+        <Images key={index} fluid={item.node.childImageSharp.fluid} />
+      ))
+    else return null
   }
 
   return (

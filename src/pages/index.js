@@ -17,19 +17,19 @@ const IndexPage = () => {
       <Seo title="Home" />
       <Hero />
 
-      <div data-sal="fade" data-sal-delay="300" data-sal-easing="ease">
+      <div data-sal="fade" data-sal-delay="100" data-sal-easing="ease">
         <Trips heading="Our Beatiful Destinations.." />
       </div>
-      <div data-sal="zoom-out" data-sal-delay="300" data-sal-easing="ease">
+      <div data-sal="zoom-out" data-sal-delay="100" data-sal-easing="ease">
         <Testimonials />
       </div>
-      <div data-sal="zoom-out" data-sal-delay="300" data-sal-easing="ease">
+      <div data-sal="zoom-out" data-sal-delay="100" data-sal-easing="ease">
         <Stats />
       </div>
-      <div data-sal="zoom-out" data-sal-delay="300" data-sal-easing="ease">
+      <div data-sal="zoom-out" data-sal-delay="100" data-sal-easing="ease">
         <Email />
       </div>
-      <div data-sal="zoom-out" data-sal-delay="300" data-sal-easing="ease">
+      <div data-sal="zoom-out" data-sal-delay="100" data-sal-easing="ease">
         <Footer />
       </div>
     </Layout>

@@ -1,17 +1,15 @@
 import React from "react"
-import renderer from "react-test-renderer"
+import TestRenderer from "react-test-renderer"
+import IndexPage from "../index"
+import Hero from "../../components/Hero"
 
-describe("Index component", () => {
-  beforeEach(() => {})
-  const name = "testing is rock"
-  var n = null
-
-  it("Truthy test result", () => {
-    expect(n).toBeNull()
-    expect(name).not.toBeNull()
-  })
-
-  it("chech is truthy", () => {
-    expect(n).toBeFalsy()
+describe("Hero component test", () => {
+  const testRenderer = TestRenderer.create(<Hero />)
+  const testInstance = testRenderer.root
+  it("should Travel now Button exist on component ", () => {
+    //const {getByTestId}
+    expect(
+      testInstance.findByProps({ testid: "book a flight" })
+    ).not.toBeFalsy()
   })
 })

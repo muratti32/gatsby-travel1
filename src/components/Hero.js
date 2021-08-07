@@ -13,7 +13,13 @@ const Hero = () => {
         <HeroItems>
           <HeroH1>Unreal Destination</HeroH1>
           <HeroP>Out of This World</HeroP>
-          <Button primary="true" big="true" round="true" to={`/trips`}>
+          <Button
+            testid="book a flight"
+            primary="true"
+            big="true"
+            round="true"
+            to={`/trips`}
+          >
             Travel Now
           </Button>
         </HeroItems>

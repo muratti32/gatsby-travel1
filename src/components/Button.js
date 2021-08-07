@@ -8,6 +8,7 @@ export const Button = styled(Link)`
   font-size: ${({ big }) => (big ? "1.25rem" : "1rem")};
   outline: none;
   border: none;
+  color: white;
   min-width: 6.1rem;
   cursor: pointer;
   text-decoration: none;
@@ -17,5 +18,6 @@ export const Button = styled(Link)`
   &:hover {
     background: ${({ primary }) => (primary ? "#077BF1" : "#F26E2E")};
     transform: translateY(-2px);
+    color: white;
   }
 `
