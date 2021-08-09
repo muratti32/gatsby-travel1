@@ -2,7 +2,7 @@
 
 ### visit live demo
 
-`https://travelsitebuildwithgatsby.gatsbyjs.io/`
+<a href="https://travelsitebuildwithgatsby.gatsbyjs.io/" >`https://travelsitebuildwithgatsby.gatsbyjs.io/`</a>
 
 ## Availeble scripst
 
