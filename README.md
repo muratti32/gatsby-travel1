@@ -4,7 +4,7 @@
 
 <a href="https://travelsitebuildwithgatsby.gatsbyjs.io/" >`https://travelsitebuildwithgatsby.gatsbyjs.io/`</a>
 
-## Availeble scripst
+## Availeble scripts
 
 to install the required dependecies , you can run
 
